@@ -1,0 +1,88 @@
+.deposit-container {
+  padding: 1.5rem;
+  color: #000;
+}
+
+.amount-section,
+.coin-section,
+.wallet-section {
+  margin-bottom: 1.5rem;
+}
+
+.amount-section h1,
+.coin-section h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.amount-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
+
+.amount-option {
+  padding: 5px;
+  background-color: #333;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.amount-option.selected {
+  border-color: orange;
+}
+
+.amount-input,
+.coin-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.wallet-section {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.coin-icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.coin-icon.usdt {
+  color: green;
+}
+
+.coin-icon.bitcoin {
+  color: orange;
+}
+
+.qr-code {
+  margin: 1rem auto;
+  border: 2px solid #000;
+}
+
+.wallet-address {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.confirm-btn {
+  padding: 1rem;
+  background-color: var(--blue);
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}

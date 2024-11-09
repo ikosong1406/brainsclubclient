@@ -1,0 +1,90 @@
+/* Container styling */
+.ticket-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.ticket-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1d4ed8;
+}
+
+/* Form styling */
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Label styling */
+.ticket-label {
+  font-weight: 500;
+  color: #555;
+}
+
+/* Input, select, and textarea styling */
+.ticket-select,
+.ticket-input,
+.ticket-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ticket-select:focus,
+.ticket-input:focus,
+.ticket-textarea:focus {
+  outline: none;
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 1px #1d4ed8;
+}
+
+/* Textarea specific styling */
+.ticket-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button styling */
+.ticket-button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .ticket-container {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .ticket-title {
+    font-size: 1.25rem;
+  }
+
+  .ticket-select,
+  .ticket-input,
+  .ticket-textarea {
+    font-size: 0.9rem;
+  }
+
+  .ticket-button {
+    font-size: 0.9rem;
+  }
+}

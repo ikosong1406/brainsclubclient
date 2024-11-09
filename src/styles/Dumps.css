@@ -1,0 +1,101 @@
+.page-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Desktop Table Styles */
+.table-container {
+  display: block;
+}
+
+.desktop-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desktop-table th,
+.desktop-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.desktop-table th {
+  background-color: #f4f4f8;
+  color: #555;
+  font-weight: 600;
+}
+
+.table-row:hover {
+  background-color: #f9f9f9;
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: #28a745;
+  transition: color 0.3s;
+}
+
+.cart-icon:hover {
+  color: #218838;
+}
+
+.insufficient-funds {
+  color: #888;
+}
+
+/* Mobile Card Styles */
+.card-container {
+  display: none;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e5e5;
+  display: block;
+}
+
+.card p {
+  color: #444;
+  margin: 4px 0;
+}
+
+.card strong {
+  color: #333;
+}
+
+.card-cart-icon {
+  font-size: 1.2rem;
+  margin-top: 12px;
+  color: #28a745;
+  cursor: pointer;
+}
+
+.card-cart-icon:hover {
+  color: #218838;
+}
+
+.insufficient-funds {
+  color: #888;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 767px) {
+  .table-container {
+    display: none;
+  }
+
+  .card-container {
+    display: block;
+  }
+}
