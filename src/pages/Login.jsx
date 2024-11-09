@@ -52,7 +52,7 @@ const Login = () => {
       toast.success(message);
       setLoading(false);
 
-      navigate("/dashboard");
+      navigate("/overview");
     } catch (error) {
       if (error.response) {
         toast.error(error.response.data.data);
