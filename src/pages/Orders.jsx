@@ -25,7 +25,7 @@ const Orders = () => {
   return (
     <DashboardLayout>
       <div className="orders-container">
-        <h1>Your Orders</h1>
+        <h1 style={{ fontSize: 18 }}>Your Orders</h1>
         {loading ? (
           <p>Loading orders...</p>
         ) : orders.length > 0 ? (

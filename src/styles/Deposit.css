@@ -10,7 +10,7 @@
 
 .amount-section h1,
 .coin-section h1 {
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -73,11 +73,11 @@
 
 .wallet-address {
   margin-top: 1rem;
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 
 .confirm-btn {
-  padding: 1rem;
+  padding: 13px;
   background-color: var(--blue);
   color: #fff;
   border-radius: 0.5rem;
